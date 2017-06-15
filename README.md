@@ -33,19 +33,19 @@ For Unix/Linux/Mac:
     make install
     /sbin/ldconfig #if necessary
     
-For Windows using MinGW, cmake and qt4.8
-    add to your windows environment variable PATH
-    - path to your CMake\bin
-    - path to your MinGW\bin
-    - path to your Qt\_qtversion_\bin
+For Windows using MinGW, cmake and qt4.8:
+Add to your windows environment variable PATH:
+  - path to your CMake\bin
+  - path to your MinGW\bin
+  - path to your Qt\_qtversion_\bin 
+  
+Run command prompt as administrator and go into qjson folder
     
-    run command prompt as administrator
-    go into qjson folder
-    mkdir build
-    cd build
-    cmake -G "MinGW Makefiles" ..
-    make
-    make install
+      mkdir build
+      cd build
+      cmake -G "MinGW Makefiles" ..
+      make
+      make install
 
 # License
   This library is licensed under the Lesser GNU General Public License version 2.1.
